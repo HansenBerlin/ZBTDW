@@ -65,10 +65,10 @@ fun MainScreen(createContacts: (Int, String, Boolean) -> Unit, progress: Int) {
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Text(
-            text = "Add and remove dummy contacts",
+            text = "Zweitbeste Tool der Welt: \nAdd and remove dummy contacts",
             textAlign = TextAlign.Center,
-            style = MaterialTheme.typography.headlineSmall,
-            modifier = Modifier.padding(top = 16.dp, bottom = 16.dp),
+            style = MaterialTheme.typography.titleLarge,
+            modifier = Modifier.padding(top = 16.dp, bottom = 16.dp, start = 8.dp, end = 8.dp),
         )
 
         TextField(
